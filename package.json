@@ -3,5 +3,9 @@
   "packageManager": "yarn@3.2.4",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo\"Error: no test specified\" && exit 1"
   }
 }
